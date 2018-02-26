@@ -48,8 +48,8 @@ function draw() {
 	  line(mouseX, mouseY, random(), random());
       oscA.freq(mouseX);
       oscS.freq(mouseY);
-      oscD.freq(mouseX);
-      oscF.freq(mouseY);
+      oscD.freq(mouseX+50);
+      oscF.freq(mouseY+50);
   
     }
   }
@@ -99,4 +99,3 @@ function keyReleased() {
     playing = false;
   }
 }
-
